@@ -1,6 +1,9 @@
 
 import './App.css';
 // import MyButton  from './practice-components/MyButton';
+import Header from './practice-components/Header';
+import Footer from './practice-components/Footer'
+import Food from './practice-components/Food';
 
 const user = {
   name: 'Anusha Dammalapati',
@@ -16,6 +19,9 @@ function App() {
       <h1>Welcome to my app</h1>
       <h3>name: {user.name}</h3>
       <img className='avatar ' src={user.imageUrl} style={{height: user.imageSize, width:user.imageSize}} alt={'image of' + user.name}/>
+      <Header/>
+      <Food/>
+      <Footer/>
       {/* <MyButton/> */}
     </div>
   );
