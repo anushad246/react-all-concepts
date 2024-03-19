@@ -21,6 +21,20 @@
   }
 }
 
+.buttonStyles{
+  background-color: aqua;
+  color: white;
+  border: 5px solid white;
+  height: 100%;
+  width: 100%;
+  font-size: larger;
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
