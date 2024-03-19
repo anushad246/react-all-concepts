@@ -5,9 +5,10 @@ import "./App.css";
 // import Footer from './practice-components/Footer'
 // import Food from './practice-components/Food';
 // import Card from './practice-components/Card';
-import ExternalStyles from "./add-css/ExternalStyles";
-import InternalStyles from "./add-css/InternalStyles";
-import ModuleStyles from "./add-css/ModuleStyles";
+// import ExternalStyles from "./add-css/ExternalStyles";
+// import InternalStyles from "./add-css/InternalStyles";
+// import ModuleStyles from "./add-css/ModuleStyles";
+import Student from "./practice-components/Student";
 
 const user = {
   name: "Anusha Dammalapati",
@@ -26,9 +27,15 @@ function App() {
       <Footer/> */}
       {/* <MyButton/> */}
       {/* <Card /> */}
-      <ExternalStyles/>
+      {/* <ExternalStyles/>
       <InternalStyles/>
-      <ModuleStyles/>
+      <ModuleStyles/> */}
+      <Student name="Sumanth" age={27} isStudent={true}/>
+      <Student name="Balakrishna" age={45} isStudent={false}/>
+      <Student name="Vaishnavi" age={26} isStudent={true}/>
+      <Student name="Rohan" age={36} isStudent={false}/>
+      <Student></Student>
+      <Student isStudent={true} age={18}></Student>
     </div>
   );
 }
