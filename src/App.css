@@ -37,6 +37,24 @@
   padding: 5px;
   margin: 5px 5px
 }
+.user-greetings-welcom{
+  color: white;
+  background-color: rgb(10, 187, 10);
+  font-size: 20px;
+  padding: 10px 10px;
+  text-align: center;
+  margin-top: 3rem;
+  border-radius: 5px;
+}
+.user-greetings-login{
+  color: white;
+  background-color: rgb(251, 24, 24);
+  font-size: 20px;
+  padding: 10px 10px;
+  text-align: center;
+  margin-top: 3rem;
+  border-radius: 5px;
+}
 
 
 

@@ -8,7 +8,8 @@ import "./App.css";
 // import ExternalStyles from "./add-css/ExternalStyles";
 // import InternalStyles from "./add-css/InternalStyles";
 // import ModuleStyles from "./add-css/ModuleStyles";
-import Student from "./practice-components/Student";
+// import Student from "./practice-components/Student";
+import UserGreetings from "./practice-components/UserGreetings";
 
 const user = {
   name: "Anusha Dammalapati",
@@ -30,12 +31,13 @@ function App() {
       {/* <ExternalStyles/>
       <InternalStyles/>
       <ModuleStyles/> */}
-      <Student name="Sumanth" age={27} isStudent={true}/>
+      {/* <Student name="Sumanth" age={27} isStudent={true}/>
       <Student name="Balakrishna" age={45} isStudent={false}/>
       <Student name="Vaishnavi" age={26} isStudent={true}/>
       <Student name="Rohan" age={36} isStudent={false}/>
       <Student></Student>
-      <Student isStudent={true} age={18}></Student>
+      <Student isStudent={true} age={18}></Student> */}
+      <UserGreetings islogedIn={true} name="Anusha Dammalapati"></UserGreetings>
     </div>
   );
 }
