@@ -1,4 +1,5 @@
 import "./App.css";
+
 // import Card from "./practice-components/Card";
 // import MyButton  from './practice-components/MyButton';
 // import Header from './practice-components/Header';
@@ -10,7 +11,8 @@ import "./App.css";
 // import ModuleStyles from "./add-css/ModuleStyles";
 // import Student from "./practice-components/Student";
 // import UserGreetings from "./practice-components/UserGreetings";
-import List from "./practice-components/List";
+// import List from "./practice-components/List";
+import ClickEventButton from "./practice-components/ClickEventButton";
 
 const user = {
   name: "Anusha Dammalapati",
@@ -124,6 +126,7 @@ const marketingSpecialist = employees.filter(
 function App() {
   return (
     <div className="App">
+
       {/* <h1>Welcome to my app</h1>
       <h3>name: {user.name}</h3>
       <img className='avatar ' src={user.imageUrl} style={{height: user.imageSize, width:user.imageSize}} alt={'image of' + user.name}/> */}
@@ -144,13 +147,15 @@ function App() {
       {/* <UserGreetings islogedIn={true} name="Anusha Dammalapati"></UserGreetings> */}
 
       {/* <div> */}
-      <List techData={uiDeveloprs} category="UI Team"></List>
+      {/* <List techData={uiDeveloprs} category="UI Team"></List>
       <List techData={BackendDeveloper} category="Backend Team"></List>
       <List
         techData={marketingSpecialist}
         category="Marketing Specialist"
-      ></List>
+      ></List> */}
       {/* </div> */}
+
+      <ClickEventButton/>
     </div>
   );
 }

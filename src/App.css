@@ -16,12 +16,12 @@
   width: 40%;
   border-radius: 5px;
   box-shadow: 5px 5px rgba(70, 70, 70, 0.212);
-  .imgs{
+  .imgs {
     margin-top: 10px;
   }
 }
 
-.buttonStyles{
+.buttonStyles {
   background-color: aqua;
   color: white;
   border: 5px solid white;
@@ -32,12 +32,61 @@
   border-radius: 10px;
   cursor: pointer;
 }
-.student{
+
+.click-evnet-btn {
+  background-color: rgb(40, 207, 82);
+  color: white;
+  border: 5px solid white;
+  height: 100%;
+  width: 100%;
+  font-size: larger;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.stop-click-evnet-btn{
+  background-color: rgb(242, 74, 74);
+  color: white;
+  border: 5px solid white;
+  height: 100%;
+  width: 100%;
+  font-size: larger;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.restrict-click-evnet-btn{
+  background-color: rgb(228, 242, 74);
+  color: white;
+  border: 5px solid white;
+  height: 100%;
+  width: 100%;
+  font-size: larger;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.chng-btn-txt{
+  background-color: orange;
+  color: white;
+  border: 5px solid white;
+  height: 100%;
+  width: 100%;
+  font-size: larger;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.student {
   border: 1px solid black;
   padding: 5px;
-  margin: 5px 5px
+  margin: 5px 5px;
 }
-.user-greetings-welcom{
+.user-greetings-welcom {
   color: white;
   background-color: rgb(10, 187, 10);
   font-size: 20px;
@@ -46,7 +95,7 @@
   margin-top: 3rem;
   border-radius: 5px;
 }
-.user-greetings-login{
+.user-greetings-login {
   color: white;
   background-color: rgb(251, 24, 24);
   font-size: 20px;
@@ -55,8 +104,6 @@
   margin-top: 3rem;
   border-radius: 5px;
 }
-
-
 
 /* .App-logo {
   height: 40vmin;
@@ -92,7 +139,6 @@
     transform: rotate(360deg);
   }
 } */
-
 
 /* Style the table */
 table {
