@@ -12,7 +12,9 @@ import "./App.css";
 // import Student from "./practice-components/Student";
 // import UserGreetings from "./practice-components/UserGreetings";
 // import List from "./practice-components/List";
-import ClickEventButton from "./practice-components/ClickEventButton";
+// import ClickEventButton from "./practice-components/ClickEventButton";
+import UseStateComponent from "./practice-components/UseStateComponent";
+import Counter from "./practice-components/Counter";
 
 const user = {
   name: "Anusha Dammalapati",
@@ -155,7 +157,9 @@ function App() {
       ></List> */}
       {/* </div> */}
 
-      <ClickEventButton/>
+      {/* <ClickEventButton/> */}
+      <UseStateComponent></UseStateComponent>
+      <Counter></Counter>
     </div>
   );
 }
