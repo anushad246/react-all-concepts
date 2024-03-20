@@ -9,7 +9,8 @@ import "./App.css";
 // import InternalStyles from "./add-css/InternalStyles";
 // import ModuleStyles from "./add-css/ModuleStyles";
 // import Student from "./practice-components/Student";
-import UserGreetings from "./practice-components/UserGreetings";
+// import UserGreetings from "./practice-components/UserGreetings";
+import List from "./practice-components/List";
 
 const user = {
   name: "Anusha Dammalapati",
@@ -37,7 +38,8 @@ function App() {
       <Student name="Rohan" age={36} isStudent={false}/>
       <Student></Student>
       <Student isStudent={true} age={18}></Student> */}
-      <UserGreetings islogedIn={true} name="Anusha Dammalapati"></UserGreetings>
+      {/* <UserGreetings islogedIn={true} name="Anusha Dammalapati"></UserGreetings> */}
+      <List></List>
     </div>
   );
 }
