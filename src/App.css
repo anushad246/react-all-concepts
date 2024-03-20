@@ -92,3 +92,35 @@
     transform: rotate(360deg);
   }
 } */
+
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Style table header */
+th {
+  background-color: #f2f2f2;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Style table cells */
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style even rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style hover effect */
+tr:hover {
+  background-color: #ddd;
+}

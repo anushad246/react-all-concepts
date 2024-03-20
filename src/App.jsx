@@ -18,6 +18,109 @@ const user = {
   imageSize: "90",
 };
 
+const employees = [
+  {
+    id: 1,
+    name: "Anusha",
+    designation: "UI Developer",
+    company: "Aimlytics Pvt Ltd",
+  },
+  {
+    id: 2,
+    name: "John",
+    designation: "UI Developer",
+    company: "Tech Solutions Inc.",
+  },
+  {
+    id: 3,
+    name: "Emily",
+    designation: "Marketing Specialist",
+    company: "Innovative Designs Ltd",
+  },
+  {
+    id: 4,
+    name: "Michael",
+    designation: "Marketing Specialist",
+    company: "Web Dynamics LLC",
+  },
+  {
+    id: 5,
+    name: "Sophia",
+    designation: "UI Developer",
+    company: "Creative Minds Ltd",
+  },
+  {
+    id: 6,
+    name: "Jacob",
+    designation: "Backend Developer",
+    company: "Tech Innovations Inc.",
+  },
+  {
+    id: 7,
+    name: "Olivia",
+    designation: "UI Developer",
+    company: "Innovative Designs Ltd",
+  },
+  {
+    id: 8,
+    name: "William",
+    designation: "Marketing Specialist",
+    company: "Aimlytics Pvt Ltd",
+  },
+  {
+    id: 9,
+    name: "Emma",
+    designation: "Marketing Specialist",
+    company: "Tech Solutions Inc.",
+  },
+  {
+    id: 10,
+    name: "Liam",
+    designation: "UI Developer",
+    company: "Creative Minds Ltd",
+  },
+  {
+    id: 11,
+    name: "Ava",
+    designation: "UI Developer",
+    company: "Innovative Designs Ltd",
+  },
+  {
+    id: 12,
+    name: "Noah",
+    designation: "Backend Developer",
+    company: "Web Dynamics LLC",
+  },
+  {
+    id: 13,
+    name: "Isabella",
+    designation: "Marketing Specialist",
+    company: "Aimlytics Pvt Ltd",
+  },
+  {
+    id: 14,
+    name: "James",
+    designation: "UI Developer",
+    company: "Creative Minds Ltd",
+  },
+  {
+    id: 15,
+    name: "Ethan",
+    designation: "Backend Developer",
+    company: "Tech Innovations Inc.",
+  },
+];
+
+const uiDeveloprs = employees.filter(
+  (uiDev) => uiDev.designation === "UI Developer"
+);
+const BackendDeveloper = employees.filter(
+  (uiDev) => uiDev.designation === "Backend Developer"
+);
+const marketingSpecialist = employees.filter(
+  (uiDev) => uiDev.designation === "Marketing Specialist"
+);
+
 function App() {
   return (
     <div className="App">
@@ -39,7 +142,15 @@ function App() {
       <Student></Student>
       <Student isStudent={true} age={18}></Student> */}
       {/* <UserGreetings islogedIn={true} name="Anusha Dammalapati"></UserGreetings> */}
-      <List></List>
+
+      {/* <div> */}
+      <List techData={uiDeveloprs} category="UI Team"></List>
+      <List techData={BackendDeveloper} category="Backend Team"></List>
+      <List
+        techData={marketingSpecialist}
+        category="Marketing Specialist"
+      ></List>
+      {/* </div> */}
     </div>
   );
 }
