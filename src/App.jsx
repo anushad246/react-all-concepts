@@ -13,8 +13,10 @@ import "./App.css";
 // import UserGreetings from "./practice-components/UserGreetings";
 // import List from "./practice-components/List";
 // import ClickEventButton from "./practice-components/ClickEventButton";
-import UseStateComponent from "./practice-components/UseStateComponent";
-import Counter from "./practice-components/Counter";
+// import UseStateComponent from "./practice-components/UseStateComponent";
+// import Counter from "./practice-components/Counter";
+import OnChangesComponent from "./practice-components/OnChangesComponent";
+
 
 const user = {
   name: "Anusha Dammalapati",
@@ -128,7 +130,6 @@ const marketingSpecialist = employees.filter(
 function App() {
   return (
     <div className="App">
-
       {/* <h1>Welcome to my app</h1>
       <h3>name: {user.name}</h3>
       <img className='avatar ' src={user.imageUrl} style={{height: user.imageSize, width:user.imageSize}} alt={'image of' + user.name}/> */}
@@ -158,8 +159,9 @@ function App() {
       {/* </div> */}
 
       {/* <ClickEventButton/> */}
-      <UseStateComponent></UseStateComponent>
-      <Counter></Counter>
+      {/* <UseStateComponent></UseStateComponent>
+      <Counter></Counter> */}
+    <OnChangesComponent/>
     </div>
   );
 }
