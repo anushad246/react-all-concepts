@@ -44,7 +44,7 @@ const OnChangesComponent = () => {
         <option value="audi">Audi</option>
       </select>
 
-      <p>Radio Buttons</p>
+      <p>selected course: {radioHandler}</p>
       <div style={{ marginTop: "15px" }}>
         <input
           type="radio"

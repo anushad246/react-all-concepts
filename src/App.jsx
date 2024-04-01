@@ -15,8 +15,8 @@ import "./App.css";
 // import ClickEventButton from "./practice-components/ClickEventButton";
 // import UseStateComponent from "./practice-components/UseStateComponent";
 // import Counter from "./practice-components/Counter";
-import OnChangesComponent from "./practice-components/OnChangesComponent";
-
+// import OnChangesComponent from "./practice-components/OnChangesComponent";
+import DisplayColor from "./practice-components/DisplayColor";
 
 const user = {
   name: "Anusha Dammalapati",
@@ -161,7 +161,8 @@ function App() {
       {/* <ClickEventButton/> */}
       {/* <UseStateComponent></UseStateComponent>
       <Counter></Counter> */}
-    <OnChangesComponent/>
+      {/* <OnChangesComponent/> */}
+      <DisplayColor />
     </div>
   );
 }
