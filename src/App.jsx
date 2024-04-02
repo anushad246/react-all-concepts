@@ -16,7 +16,8 @@ import "./App.css";
 // import UseStateComponent from "./practice-components/UseStateComponent";
 // import Counter from "./practice-components/Counter";
 // import OnChangesComponent from "./practice-components/OnChangesComponent";
-import DisplayColor from "./practice-components/DisplayColor";
+// import DisplayColor from "./practice-components/DisplayColor";
+import UpdateObjectInState from "./practice-components/UpdateObjectInState";
 
 const user = {
   name: "Anusha Dammalapati",
@@ -162,7 +163,8 @@ function App() {
       {/* <UseStateComponent></UseStateComponent>
       <Counter></Counter> */}
       {/* <OnChangesComponent/> */}
-      <DisplayColor />
+      {/* <DisplayColor /> */}
+      <UpdateObjectInState></UpdateObjectInState>
     </div>
   );
 }
