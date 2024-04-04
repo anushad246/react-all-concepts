@@ -18,7 +18,8 @@ import "./App.css";
 // import OnChangesComponent from "./practice-components/OnChangesComponent";
 // import DisplayColor from "./practice-components/DisplayColor";
 // import UpdateObjectInState from "./practice-components/UpdateObjectInState";
-import UpdateArrayInState from "./practice-components/UpdateArrayInState";
+// import UpdateArrayInState from "./practice-components/UpdateArrayInState";
+import ArrOfObj from "./practice-components/ArrOfObj";
 
 const user = {
   name: "Anusha Dammalapati",
@@ -166,7 +167,8 @@ function App() {
       {/* <OnChangesComponent/> */}
       {/* <DisplayColor /> */}
       {/* <UpdateObjectInState></UpdateObjectInState> */}
-      <UpdateArrayInState></UpdateArrayInState>
+      {/* <UpdateArrayInState></UpdateArrayInState> */}
+      <ArrOfObj></ArrOfObj>
     </div>
   );
 }
