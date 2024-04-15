@@ -19,7 +19,8 @@ import "./App.css";
 // import DisplayColor from "./practice-components/DisplayColor";
 // import UpdateObjectInState from "./practice-components/UpdateObjectInState";
 // import UpdateArrayInState from "./practice-components/UpdateArrayInState";
-import ArrOfObj from "./practice-components/ArrOfObj";
+// import ArrOfObj from "./practice-components/ArrOfObj";
+import Crud from './practice-components/Crud'
 
 const user = {
   name: "Anusha Dammalapati",
@@ -168,7 +169,8 @@ function App() {
       {/* <DisplayColor /> */}
       {/* <UpdateObjectInState></UpdateObjectInState> */}
       {/* <UpdateArrayInState></UpdateArrayInState> */}
-      <ArrOfObj></ArrOfObj>
+      {/* <ArrOfObj></ArrOfObj> */}
+      <Crud></Crud>
     </div>
   );
 }
