@@ -20,7 +20,8 @@ import "./App.css";
 // import UpdateObjectInState from "./practice-components/UpdateObjectInState";
 // import UpdateArrayInState from "./practice-components/UpdateArrayInState";
 // import ArrOfObj from "./practice-components/ArrOfObj";
-import Crud from './practice-components/Crud'
+// import Crud from './practice-components/Crud'
+import UseEffects from './practice-components/UseEffects'
 
 const user = {
   name: "Anusha Dammalapati",
@@ -170,7 +171,8 @@ function App() {
       {/* <UpdateObjectInState></UpdateObjectInState> */}
       {/* <UpdateArrayInState></UpdateArrayInState> */}
       {/* <ArrOfObj></ArrOfObj> */}
-      <Crud></Crud>
+      {/* <Crud></Crud> */}
+      <UseEffects></UseEffects>
     </div>
   );
 }
