@@ -21,7 +21,8 @@ import "./App.css";
 // import UpdateArrayInState from "./practice-components/UpdateArrayInState";
 // import ArrOfObj from "./practice-components/ArrOfObj";
 // import Crud from './practice-components/Crud'
-import UseEffects from './practice-components/UseEffects'
+// import UseEffects from './practice-components/UseEffects'
+import DigitalClock from './practice-components/DigitalClock'
 
 const user = {
   name: "Anusha Dammalapati",
@@ -153,7 +154,6 @@ function App() {
       <Student></Student>
       <Student isStudent={true} age={18}></Student> */}
       {/* <UserGreetings islogedIn={true} name="Anusha Dammalapati"></UserGreetings> */}
-
       {/* <div> */}
       {/* <List techData={uiDeveloprs} category="UI Team"></List>
       <List techData={BackendDeveloper} category="Backend Team"></List>
@@ -162,7 +162,6 @@ function App() {
         category="Marketing Specialist"
       ></List> */}
       {/* </div> */}
-
       {/* <ClickEventButton/> */}
       {/* <UseStateComponent></UseStateComponent>
       <Counter></Counter> */}
@@ -172,7 +171,8 @@ function App() {
       {/* <UpdateArrayInState></UpdateArrayInState> */}
       {/* <ArrOfObj></ArrOfObj> */}
       {/* <Crud></Crud> */}
-      <UseEffects></UseEffects>
+      {/* <UseEffects></UseEffects> */}
+      <DigitalClock></DigitalClock>
     </div>
   );
 }
