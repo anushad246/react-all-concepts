@@ -22,7 +22,8 @@ import "./App.css";
 // import ArrOfObj from "./practice-components/ArrOfObj";
 // import Crud from './practice-components/Crud'
 // import UseEffects from './practice-components/UseEffects'
-import DigitalClock from './practice-components/DigitalClock'
+// import DigitalClock from './practice-components/DigitalClock'
+import ComponentA from './practice-components/ComponentA'
 
 const user = {
   name: "Anusha Dammalapati",
@@ -172,7 +173,8 @@ function App() {
       {/* <ArrOfObj></ArrOfObj> */}
       {/* <Crud></Crud> */}
       {/* <UseEffects></UseEffects> */}
-      <DigitalClock></DigitalClock>
+      {/* <DigitalClock></DigitalClock> */}
+      <ComponentA></ComponentA>
     </div>
   );
 }
