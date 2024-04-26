@@ -23,7 +23,8 @@ import "./App.css";
 // import Crud from './practice-components/Crud'
 // import UseEffects from './practice-components/UseEffects'
 // import DigitalClock from './practice-components/DigitalClock'
-import ComponentA from './practice-components/ComponentA'
+// import ComponentA from './practice-components/ComponentA'
+import UseReference from "./practice-components/UseReference";
 
 const user = {
   name: "Anusha Dammalapati",
@@ -174,7 +175,8 @@ function App() {
       {/* <Crud></Crud> */}
       {/* <UseEffects></UseEffects> */}
       {/* <DigitalClock></DigitalClock> */}
-      <ComponentA></ComponentA>
+      {/* <ComponentA></ComponentA> */}
+      <UseReference/>
     </div>
   );
 }
